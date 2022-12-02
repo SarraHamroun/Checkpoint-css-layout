@@ -1,0 +1,264 @@
+header{
+    position: -webkit-sticky; 
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 1015px;
+    align-self: center;
+    justify-content: space-between;
+    justify-self: center ;
+}
+.logo {
+    /*flex: 2*/
+    width: 300px;
+    height: 50px;
+    /*border: solid 9px black;*/
+    overflow: hidden;
+    text-align: start ;
+    
+}
+.logo img{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+/*.space-between{
+    border: solid 7px black;
+    width: 10%; 
+    height: 50px;
+}*/
+nav{
+    max-width: 270px;
+    padding-left: 10px;
+    flex: 10%;
+    /*border: solid 7px black;*/
+    height: 50px;
+    text-align: center;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    height: 60px;
+    flex: 1;
+    display: inline;
+    color: rgb(164,164,164) ;
+    margin-right: 10px;
+}
+#about-us{
+    color: rgb(19, 182, 159);
+}
+
+.highlight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin-top: 70x;
+    margin-bottom: 70px;*/
+    margin: 45px 30px;
+    width: 1000px;
+    align-self: center;
+    justify-self: center;
+}
+.minilogo img{
+    width:62px;
+}
+@font-face {
+    font-family: fontitle;
+    src: url(Montserrat-ExtraLight.ttf);
+}
+
+.highlight .title{
+    flex: 1;
+    color: #00B39B;
+    font-size: 26px;
+    font-family:   Arial, sans-serif;
+    font-weight: light ;
+    /*margin: 34px 0px;*/
+    margin-bottom: 15px;
+}
+.texthigh{
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    font-family:  Arial, sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.paraleft, .pararight{
+    flex: 1; 
+    line-height: 2;
+    font-weight: lighter;
+
+}
+
+
+
+
+
+
+
+.country{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 227.5px 40px;
+    /*padding: 0px 20px;*/
+    height: 365px;
+    width: 1000px;
+    gap: 15px;
+    justify-self: center;
+
+}
+.coun{
+    flex: 1;
+    border-radius: 5%;
+    padding: 32px 32px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.doc{
+    background-color:#3D83DF;
+}
+.pat{
+    background-color: #00CCB1;
+}
+.cli{
+    background-color: #1B2734;
+}
+.title3{
+    font-size: 26px;
+   
+}
+.textcoun{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19.2px;
+    color: #FFFFFF;
+    text-decoration-line: underline ;
+    border-style: none;
+    
+}
+.pat select{
+    background-color: #00CCB1;
+}
+.doc select{
+    background-color: #3D83DF;
+}
+.cli select{
+    background-color: #1B2734;
+}
+
+
+
+
+
+.partenaire{
+    height: 250px;
+    width: 1000px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 30px;
+}
+.partenaire .title{
+    width: 320px;
+    height: 100px;
+    color: #00B39B;
+    font-size: 26px;
+    font-family:   Arial, sans-serif;
+    padding-right: 50px;
+    position: relative;
+    top: 20px;
+}
+.logos {
+    display: flex;
+    width: 680px;
+    flex-wrap: wrap;
+    gap: 10px 26px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+
+}
+.logointer img{
+    width: 120px;
+    position: relative;
+    top: 20px;
+
+}
+#gipo{
+    height: 50px;
+    width: 50px;
+    position: static;
+}
+#clinicc{
+    height: 60px;
+    width: 60px;
+    position: static;
+}
+#jameda{
+    height: 60px;
+    width: 120px;
+    position: static;
+}
+.logointer{
+    width: 120px;
+    height: 70px;
+    flex: 1;   
+    /*background-color: #3D83DF;*/
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+.world{
+    margin: 50px 0px 88px;
+    background-color:rgb(191,235,231) ;
+    display: flex;
+    padding: 30px 0px 10px;
+    height: 600px;
+    flex-direction: column; 
+}
+.stats{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    
+}
+.stat{
+    margin: 1.5em;
+    background-color: azure;
+    padding: 1.5em;
+    flex: 50%;
+
+}
+.lives{
+    display: flex;
+    flex-direction: column;
+    padding: 1.6em;
+
+}
+.openings{
+    flex:50%;
+    display: flex;
+    flex-direction: row;
+}
+.country{
+    margin: 1.5em;
+    border: 1.5em;
+}
