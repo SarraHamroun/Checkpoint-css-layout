@@ -1,19 +1,29 @@
+body{
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    position: relative;
+}
+
+
+
 header{
-    position: -webkit-sticky; 
-    position: sticky;
+    /*position: -webkit-sticky; 
+    position: sticky;*/
     display: flex;
-    flex-direction: row;
+    
     background-color: white;
-    width: 1015px;
+    width: 1000px;
     align-self: center;
     justify-content: space-between;
     justify-self: center ;
 }
 .logo {
-    /*flex: 2*/
+    flex: 1;
     width: 300px;
     height: 50px;
-    /*border: solid 9px black;*/
+    border: solid 1px black;
     overflow: hidden;
     text-align: start ;
     
@@ -29,10 +39,10 @@ header{
     height: 50px;
 }*/
 nav{
-    max-width: 270px;
+    max-width: 350px;
     padding-left: 10px;
-    flex: 10%;
-    /*border: solid 7px black;*/
+    flex: 1;
+    border: solid 7px black;
     height: 50px;
     text-align: center;
     
@@ -232,7 +242,6 @@ select{
     /*display: flex;*/
     padding: 30px 0px 10px;
     height: 700px;
-
 }
 .space{
     height: 350px;
@@ -244,31 +253,46 @@ select{
     width: 1000px;
     flex-wrap: wrap;
     height: 700px;
-    gap: 17px;
+    gap: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.world .title{
+.tit-des .title{
     width: 477px;
     height: 88px;
     color: #00B39B;
-    font-size: 34px;
+    font-size: 30px;
     font-family:   Arial, sans-serif;
     flex: 1;
 }
-.world .descrip{
+.tit-des .descrip{
     font-size: 14px;
     font-family:   Arial, sans-serif;
     color: #747474;
     flex: 1 ;
     line-height: 1.3;
-    width: 500px;
+    width: 450px;
 }
-#tit-des{
+.worldo .tit-des{
     height: 350px;
     display: flex;
     flex-direction: column;
     flex: 25%;
     width: 300px;
     padding: 10px;
+    margin-right: 50px;
+}
+.stat .descrip{
+    font-size: 14px;
+    font-family:   Arial, sans-serif;
+    color: #747474;
+    line-height: 1.3;
+    
+}
+.stat .title2{
+    color: #00B39B;
+    font-size: 16px;
+    font-family:Arial, sans-serif;
 }
 .stats{
     width: 500px;
@@ -285,20 +309,71 @@ select{
     flex: 50%;
     height: 230px;
     width: 190px;
-
+    text-align: center;
 }
+
+
+
+
+
+
+
 .lives{
     display: flex;
     flex-direction: column;
-    padding: 1.6em;
-
+    width: 1000px;
+    margin-bottom: 20px;
+}
+.lives .title{
+    font-size: 25px;
+}
+.lives .tit-des{
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 .openings{
-    flex:50%;
-    display: flex;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: grid;
     flex-direction: row;
+    margin-bottom: 50px;
 }
+
 .country{
     margin: 1.5em;
     border: 1.5em;
+}
+
+
+.join{
+    align-self: center;
+    text-align: center;
+    align-items: center ;
+    height: 200px;
+    width: 1000px;
+}
+.ques{
+    justify-content: center;
+    text-align: center!important;
+    height: 88px;
+    color: #333333;
+    font-size: 30px;
+    font-family:   Arial, sans-serif;
+}
+
+footer{
+    width: 1000px;
+    text-align: center;
+    font-family:   Arial, sans-serif;
+    font-size: 10px;
+    margin-bottom: 19px;
+}
+.info{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: rgb(164,164,164) ;
 }
